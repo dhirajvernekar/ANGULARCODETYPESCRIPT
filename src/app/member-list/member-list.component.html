@@ -1,3 +1,9 @@
-<p>
-  member-list works!
-</p>
+<div class="container">
+  load
+  <div class="row">
+    <div class="col lg-2 col md-3 col sm-6">
+      <p *ngFor="let item of users"> {{ item.KnownAs }} </p>
+
+    </div>
+  </div>
+</div>
